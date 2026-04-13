@@ -86,4 +86,14 @@ public class lec9 {
         }
         System.out.println(isNum);
     }
-}
+}   
+  
+
+
+
+
+
+
+
+
+
