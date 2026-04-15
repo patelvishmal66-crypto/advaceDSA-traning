@@ -87,7 +87,7 @@
 
 //     public static void main(String[] args) {
 //         int[] arr = {1,2,5,6,9,12,15};
-
+ 
 //         System.out.println(maxnumofarray(arr, 0));
 //     }
 // }
@@ -109,6 +109,7 @@
 //         System.out.println(power(x,n));
 //     }
 // }
+
 
 //-------------------------------------------------------------replacenum------------------------------------------------------------
 // import java.util.Arrays;
@@ -191,20 +192,24 @@
 
 //--------------------------------------------------------------------------vowelcount1------------------------------------------------------
 
-//  public class  lec10 {
-//     static int vowels(String str, int i) {
-//         if(i ==str.length()) 
-//             return 0;
-//         char ch =str.charAt(i);
-//         int count = (ch == 'a' || ch == 'e' || ch == 'i' || ch =='o' || ch =='u') ? 1 : 0 ;
-//         return count + vowels(str, i+1) ;
+ public class  lec10 {
+    static int vowels(String str, int i) {
+        if(i ==str.length()) 
+            return 0;
+        char ch =str.charAt(i);
+        int count = (ch == 'a' || ch == 'e' || ch == 'i' || ch =='o' || ch =='u') ? 1 : 0 ;
+        return count + vowels(str, i+1) ;
 
-//     }
+    }
     
-//     public static void main(String[] args ) {
-//         String str = "hello";
-//         int i= 0;
-//         System.out.println(vowels(str, i));
-//     }
-//}
-//---------------*----------------*-----------------*-------------------*----------------------*----------------------*-----------------------*-------------------------
+    public static void main(String[] args ) {
+        String str = "hello";
+        int i= 0;
+        System.out.println(vowels(str, i));
+    }
+}
+
+
+//
+// 
+//---------------*----------------*-----------------*-------------------*----------------------*----------------------*-----------------------*-------------------------   
