@@ -62,4 +62,9 @@ public class lec2{
         }
         System.out.println(index);
     }
-}
+}                             
+
+
+
+
+ 
